@@ -1,3 +1,8 @@
+@charset "UTF-8";
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
 :root {
   --main-font: 'Poppins';
   --main-text-color: #8f95a5;
@@ -40,13 +45,20 @@ a {
 
 /* hero */
 .hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin-top: 55px;
 }
 
 .hero__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .hero__title {
@@ -68,7 +80,6 @@ a {
   font-weight: 400;
   font-size: 24px;
   line-height: 1.5;
-
   color: #8f95a5;
 }
 
@@ -101,5 +112,7 @@ a {
   margin-top: 147px;
   margin-left: 34px;
   fill: black;
-  transform: rotate(38.44deg);
+  -webkit-transform: rotate(38.44deg);
+          transform: rotate(38.44deg);
 }
+/*# sourceMappingURL=main.css.map */
