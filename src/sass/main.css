@@ -95,6 +95,7 @@ a {
   border-radius: 10px;
   padding: 23px 64px;
   width: 426px;
+  cursor: pointer;
 }
 
 .learning {
