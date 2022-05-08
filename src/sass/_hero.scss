@@ -40,6 +40,8 @@ a {
 
 /* hero */
 .hero {
+  position: relative;
+
   display: flex;
   margin-top: 55px;
 }
@@ -50,7 +52,6 @@ a {
 }
 
 .hero__title {
-  position: relative;
   font-family: 'Poppins';
   font-weight: 600;
   font-size: 64px;
@@ -84,6 +85,7 @@ a {
   border-radius: 10px;
   padding: 23px 64px;
   width: 426px;
+  cursor: pointer;
 }
 
 .learning {
@@ -94,12 +96,7 @@ a {
 
 .bulb {
   position: absolute;
-  top: 0;
-  left: 420px;
-  width: 85.24px;
-  height: 85.24px;
-  margin-top: 147px;
-  margin-left: 34px;
+  top: 110px;
+  left: 483px;
   fill: black;
-  transform: rotate(38.44deg);
 }
